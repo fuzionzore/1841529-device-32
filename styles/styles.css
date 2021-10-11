@@ -38,11 +38,12 @@ body {
 }
 
 .page-header {
+    font-family: raleway, Arial, sans-serif;
     color: #000000;
     background-color: #FFE17F;
 }
 
-.search {font-family: rubik;
+.search {font-family: rubik, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.96px;
@@ -50,7 +51,7 @@ body {
 }
 
 .login {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: black;
@@ -59,12 +60,13 @@ body {
 }
 
 .phrase {
+font-family: raleway, Arial, sans-serif;
 font-size: 50px;
 line-height: 50px;
 }
 
 .description {
-font-family: rubik;
+font-family: rubik, Arial, sans-serif;
 font-weight: 400;  
 font-size: 18px;
 color: #444444;
@@ -72,13 +74,14 @@ line-height: 30px;
 }
 
 .navigation-link.contacts {
+    font-family: raleway, Arial, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
 }
 
 .navigation-link {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-size: 16px;
     line-height: 18px;
     text-decoration: none;
@@ -86,7 +89,7 @@ line-height: 30px;
 }
 
 .button {
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -98,11 +101,12 @@ text-align: center;
 }
 
 .catalog {
+    font-family: raleway, Arial, sans-serif;
     line-height: 24px;
 }
 
 h2 {
-    font-family: raleway;
+    
     font-size: 18px;
     line-height: 21.13px;
     text-transform: uppercase;
@@ -115,25 +119,26 @@ h3 {
 }
 
 .about-us {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
     color: #444444;
 }
 
 .delivery-method {
+    font-family: raleway, Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
 }
 
 h4 {
-    font-family: rubik;
     font-size: 24px;
     line-height: 30px;
     color: #444444;
 }
 
 .section-type1 {
+    font-family: raleway, Arial, sans-serif;
     background-color: #F0F0F0;
 }
 
@@ -142,7 +147,7 @@ footer {
 }
 
 .navigation-link.contacts2 {
-    font-family: raleway;
+    font-family: raleway, Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
@@ -150,7 +155,7 @@ footer {
 }
 
 .about-us2 {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
@@ -158,7 +163,7 @@ footer {
 }
 
 .about-us3 {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #ffffff;
@@ -166,14 +171,14 @@ footer {
 }
 
 .inner-header-title {
-    font-family: Raleway;
+    font-family: raleway, Arial, sans-serif;
 font-size: 50px;
 line-height: 50px;
 color: black;
 }
 
 .breadcrumbs-link {
-font-family: Rubik;
+font-family: rubik, Arial, sans-serif;
 font-size: 16px;
 line-height: 19px;
 opacity: 0.6;
@@ -182,7 +187,7 @@ text-decoration: none;
 }
 
 .product-card-title {
-    font-family: rubik;
+    font-family: rubik, Arial, sans-serif;
     font-size: 18px;
 line-height: 24px;
 color: black;
@@ -190,11 +195,12 @@ text-decoration: none;
 }
 
 .product-card-link {
+    font-family: raleway, Arial, sans-serif;
     text-decoration: none;
 }
 
 .catalog-filter-title {
-    font-family: Rubik;
+font-family: rubik, Arial, sans-serif; 
 font-weight: bold;
 font-size: 18px;
 line-height: 20px;
@@ -202,21 +208,21 @@ color: black;
 }
 
 .control-label {
-    font-family: Rubik;
+font-family: rubik, Arial, sans-serif;
 font-size: 16px;
 line-height: 19px;
 color: black;
 }
 
 .select-control {
-    font-family: Rubik;
+    font-family: rubik, Arial, sans-serif;
 font-size: 16px;
 line-height: 19px;
 color: black;
 }
 
 .product-card-price {
-    font-family: Rubik;
+    font-family: rubik, Arial, sans-serif;
 font-size: 18px;
 line-height: 21px;
 text-align: right;
@@ -224,19 +230,22 @@ color: #444444;
 }
 
 .catalog-products {
+    font-family: raleway, Arial, sans-serif;
     background-color: #EBEBEB;
 }
 
 .price-sorting {
+    font-family: raleway, Arial, sans-serif;
     background-color: #EBEBEB;
 }
 
 .product-section {
+    font-family: raleway, Arial, sans-serif;
     background-color: #E5E5E5;;
 }
 
 .button.pagination-show-more {
-    font-family: Raleway;
+    font-family: raleway, Arial, sans-serif;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -246,11 +255,12 @@ color: #444444;
 }
 
 .pagination {
+    font-family: raleway, Arial, sans-serif;
     background-color: #EBEBEB;
 }
 
 .pagination-link {
     text-decoration: none;
     color: black;
-font-family: raleway;
+    font-family: raleway, Arial, sans-serif;
 }
