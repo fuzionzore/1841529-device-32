@@ -86,6 +86,11 @@ line-height: 30px;
 }
 
 .button {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
 color: black;
 text-decoration: none;
 text-transform: uppercase;
@@ -158,4 +163,94 @@ footer {
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
+}
+
+.inner-header-title {
+    font-family: Raleway;
+font-size: 50px;
+line-height: 50px;
+color: black;
+}
+
+.breadcrumbs-link {
+font-family: Rubik;
+font-size: 16px;
+line-height: 19px;
+opacity: 0.6;
+color: black;
+text-decoration: none;
+}
+
+.product-card-title {
+    font-family: rubik;
+    font-size: 18px;
+line-height: 24px;
+color: black;
+text-decoration: none;
+}
+
+.product-card-link {
+    text-decoration: none;
+}
+
+.catalog-filter-title {
+    font-family: Rubik;
+font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+color: black;
+}
+
+.control-label {
+    font-family: Rubik;
+font-size: 16px;
+line-height: 19px;
+color: black;
+}
+
+.select-control {
+    font-family: Rubik;
+font-size: 16px;
+line-height: 19px;
+color: black;
+}
+
+.product-card-price {
+    font-family: Rubik;
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+color: #444444;
+}
+
+.catalog-products {
+    background-color: #EBEBEB;
+}
+
+.price-sorting {
+    background-color: #EBEBEB;
+}
+
+.product-section {
+    background-color: #E5E5E5;;
+}
+
+.button.pagination-show-more {
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background-color: #E5E5E5;
+}
+
+.pagination {
+    background-color: #EBEBEB;
+}
+
+.pagination-link {
+    text-decoration: none;
+    color: black;
+font-family: raleway;
 }
