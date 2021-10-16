@@ -10,9 +10,17 @@
   <header class="page-header">
     <p><img class="header-logo" src="images/device-logo.svg" width="145" height="36" alt="Логотип">
     </p>
+    <section class="header-search">
   <input type="search" placeholder="Поиск по сайту" class="search">
-  <p>Каталог товаров</p>
+  <h2 class="visually-hidden"></h2>
+  <ul class="header-search-list">
+    <li><a class="login" href="#">Войти</a></li>
+    <li><a class="login" href="#">Сравнить</a></li>
+    <li><a class="login" href="#">Корзина</a></li>
+  </ul>
+</section>
   <nav class="navigation">
+    <p>Каталог товаров</p>
     <ul class="navigation-list navigation-products">
       <li class="navigation-item">
         <a class="navigation-link" href="#">Виртуальная реальность</a>
@@ -33,7 +41,7 @@
         <a class="navigation-link" href="#">Квадрокоптеры</a>
       </li>
     </ul>
-    <ul class="navigation-list">
+    <ul class="navigation-list>
       <li class="navigation-item">
         <a class="navigation-link contacts" href="#">Доставка</a>
       </li>
@@ -45,18 +53,12 @@
       </li>
     </ul>
   </nav>
-  <section>
-    <h2 class="visually-hidden"></h2>
-    <ul>
-      <li><a class="login" href="#">Войти</a></li>
-      <li><a class="login" href="#">Сравнить</a></li>
-      <li><a class="login" href="#">Корзина</a></li>
-    </ul>
-  </section>
+  
 </header>
-<main>
+<main class="main-container">
+  <div class="page-container">
   <img src="images/slider-1.png" width="560" height="560" alt="Дрон">
-  <h1 class="visually-hidden">Первый заголовок</h1>
+  <h1 class="visually-hidden"></h1>
   <section>
     <h2 class="visually-hidden"></h2>
     <p class="phrase">Порхает как бабочка, жалит как пчела!</p>
@@ -66,6 +68,8 @@
       <div>дальность полета</div>
       <div>50 м</div>
       <div>Радиус поражения</div>
+      </section>
+      <section class="products-list">
       <figure>
       <img src="images/products/VR.svg" width="97" height="55" alt="Виртуальная реальность">
       <figcaption class="catalog">Виртуальная реальность</figcaption>
@@ -96,11 +100,12 @@
         <h2>Гарантия</h2>
         <h2>Кредит</h2>
       </section>
-      <section class="section-type1">
+      <section class="section-type2">
         <div><img src="images/delivery-car.svg" width="47" height="31" alt="Курьерская машина">
         <p>Доставим редкий товар под заказ</p></div>
       </section>
-      <section>
+      <div class="index-columns">
+      <section class="section-about-us">
         <h2 class="visually-hidden"></h2>
         <h3>О нас</h3>
         <p class="about-us">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -110,7 +115,8 @@
           <li class="delivery-method">СДИКК</li>
           <li class="delivery-method">ТоксБерри</li>
         </ul>
-        <a class="button" href="#">Подробнее о нас</a>
+        <a class="button" href="#">Подробнее о нас</a></section>
+        <section class="section-contacts">
         <h3>Контакты</h3>
         <P class="about-us">Вы можете забрать товар сами, заехав в наш офис. 
           Заодно, сможете проверить работоспособность покупки. </p>
@@ -122,6 +128,8 @@
           <p class="about-us">сб—вс: с 10:00 до 19:00</p>
           <a class="button" href="#">Напишите нам</a>
   </section>
+  </div>
+  <div class="sign-up">
   <section class="section-type1">
     <h3>Подпишитесь на рассылку</h3>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -129,20 +137,22 @@
         <label class="visually-hidden" for="newsletter-email">Email</label>
         <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
       </p>
-      <button class="button newsletter-button" type="submit">
-        <span>Подписаться</span>
-      </button>
-    </form>
-    <p class="about-us">Еженедельный дайджест с обзорами новинок,
+    </form></section>
+  <section class="section-type3"><p class="about-us">Еженедельный дайджест с обзорами новинок,
 длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+<button class="button newsletter-button" type="submit">
+  <span>Подписаться</span>
+</button>
 <p class="about-us">Это бесплатно</p>
   </section>
+  </div>
+  </div>
 </main>
-<footer>
-  <p><img class="footer-logo" src="images/device2.svg" width="145" height="36" alt="Логотип"></p>
+<footer class="page-footer">
+  <div class="footer-address"><p><img class="footer-logo" src="images/device2.svg" width="145" height="36" alt="Логотип"></p>
   <p class="about-us2">Санкт-Петербург, набережная<br>
-    реки Карповки, 5, литера П.</p>
-  <ul class="navigation-list">
+    реки Карповки, 5, литера П.</p></div>
+  <div><ul class="navigation-list">
     <li class="navigation-item">
       <a class="navigation-link contacts2" href="#">Доставка</a>
     </li>
@@ -153,25 +163,26 @@
       <a class="navigation-link contacts2" href="#">Контакты</a>
     </li>
   </ul>
-  <a href="tel:+78128121212" class="about-us3">+Тел.:+7 (812) 812-12-12</a>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Facebook</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Instagram</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Twitter</span>
-            </a>
-          </li>
-        </ul>
-        <p><img src="images/htmlacademy.svg" width="115" height="33" alt="htmlacademy"></p>
+  <ul class="footer-social-list">
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">Facebook</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">Instagram</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+  <div class="footer-phone-number"><a href="tel:+78128121212" class="about-us3">+Тел.:+7 (812) 812-12-12</a>
+        <p><img src="images/htmlacademy.svg" width="115" height="33" alt="htmlacademy"></p></div>
 </footer>
   </body>
 </html>

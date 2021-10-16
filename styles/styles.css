@@ -29,7 +29,13 @@
     src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
 }
 
+html {height: 100%;}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
     font-family: raleway;
     font-size: 18px;
     line-height: 21.13px;
@@ -37,17 +43,39 @@ body {
     color: black;
 }
 
+
+.navigation {display: flex;
+
+width: 1041px;
+}
+
+
+
 .page-header {
     font-family: raleway, Arial, sans-serif;
     color: #000000;
     background-color: #FFE17F;
+    width: 1160px;
+    margin: 0 auto;
 }
+
+.header-search {
+display: flex;
+}
+
+.header-search-list {}
 
 .search {font-family: rubik, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.96px;
     opacity: 0.3;
+    width: 480px;
+}
+
+.page-container {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 .login {
@@ -64,6 +92,8 @@ font-family: raleway, Arial, sans-serif;
 font-size: 50px;
 line-height: 50px;
 }
+
+.main-container {flex-grow: 1;}
 
 .description {
 font-family: rubik, Arial, sans-serif;
@@ -88,6 +118,19 @@ line-height: 30px;
     color: black;
 }
 
+.products-list.catalog {
+    font-family: raleway, Arial, sans-serif;
+    line-height: 24px;
+    width: 160px;
+}
+
+.products-list {width: 1160px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
 .button {
     font-family: Raleway, Arial, sans-serif;
 font-style: normal;
@@ -100,10 +143,9 @@ text-transform: uppercase;
 text-align: center;
 }
 
-.catalog {
-    font-family: raleway, Arial, sans-serif;
-    line-height: 24px;
-}
+.index-columns {display: flex;
+justify-content: space-between;
+padding: 0 40px;}
 
 h2 {
     
@@ -139,12 +181,25 @@ h4 {
 
 .section-type1 {
     font-family: raleway, Arial, sans-serif;
-    background-color: #F0F0F0;
+    
 }
 
-footer {
+.section-type2 {font-family: raleway, Arial, sans-serif;
+    background-color: #F0F0F0;
+width: 1160px;}
+
+.sign-up {background-color: #F0F0F0;
+    display: flex;
+width: 1160px;}
+
+.page-footer {
     background-color: #444444;
+    width: 1160px;
+    display: flex;
+    margin: 0 auto;
 }
+
+
 
 .navigation-link.contacts2 {
     font-family: raleway, Arial, sans-serif;
@@ -244,6 +299,13 @@ color: #444444;
     background-color: #E5E5E5;;
 }
 
+.section-contacts {
+    width: 560px;
+}
+
+.section-about-us {width: 560px;
+}
+
 .button.pagination-show-more {
     font-family: raleway, Arial, sans-serif;
     font-size: 16px;
@@ -264,3 +326,10 @@ color: #444444;
     color: black;
     font-family: raleway, Arial, sans-serif;
 }
+
+.footer-address {width: 240px;
+margin-right: 115px;}
+
+.footer-phone-number {width: 250px;
+    margin-top: auto;
+margin-left: auto;}
