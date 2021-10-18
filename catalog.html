@@ -9,9 +9,17 @@
     <header class="page-header">
       <p><img class="header-logo" src="images/device-logo.svg" width="145" height="36" alt="Логотип">
       </p>
+      <section class="header-search">
     <input type="search" placeholder="Поиск по сайту" class="search">
-    <p>Каталог товаров</p>
+    <h2 class="visually-hidden"></h2>
+    <ul class="header-search-list">
+      <li><a class="login" href="#">Войти</a></li>
+      <li><a class="login" href="#">Сравнить</a></li>
+      <li><a class="login" href="#">Корзина</a></li>
+    </ul>
+  </section>
     <nav class="navigation">
+      <p>Каталог товаров</p>
       <ul class="navigation-list navigation-products">
         <li class="navigation-item">
           <a class="navigation-link" href="#">Виртуальная реальность</a>
@@ -32,7 +40,7 @@
           <a class="navigation-link" href="#">Квадрокоптеры</a>
         </li>
       </ul>
-      <ul class="navigation-list">
+      <ul class="navigation-list>
         <li class="navigation-item">
           <a class="navigation-link contacts" href="#">Доставка</a>
         </li>
@@ -44,15 +52,9 @@
         </li>
       </ul>
     </nav>
-    <section>
-      <div><ul>
-        <li><a class="login" href="#">Войти</a></li>
-        <li><a class="login" href="#">Сравнить</a></li>
-        <li><a class="login" href="#">Корзина</a></li>
-      </ul></div>
-    </section>
-      </header>
+  </header>
       <main class="main-inner">
+        <div class="page-container">
 <header class="inner-header">
     <h1 class="inner-header-title">Каталог товаров</h1>
     <ul class="breadcrumbs">
@@ -64,8 +66,10 @@
         </li>
     </ul>
 </header>
-<section class="catalog-products">
-    <h2 class="">Фильтр:</h2>
+
+    <div class="catalog-products">
+      <section class="filters">
+      <h2 class="">Фильтр:</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость</legend>
@@ -142,6 +146,7 @@
         <button class="button" type="submit">Показать</button>
     </form>
 </section>
+<div class="catalog-right-column">
 <section class="price-sorting">
     <form class="sorting-type">
         <h2><label for="sorting">Сортировка</label></h2>
@@ -204,13 +209,13 @@
     </a>
 </li>
 </ul>
-</section>
+</section></div></div></div>
     </main>
-    <footer>
-      <p><img class="footer-logo" src="images/device2.svg" width="145" height="36" alt="Логотип"></p>
+    <footer class="page-footer">
+      <div class="footer-address"><p><img class="footer-logo" src="images/device2.svg" width="145" height="36" alt="Логотип"></p>
       <p class="about-us2">Санкт-Петербург, набережная<br>
-        реки Карповки, 5, литера П.</p>
-      <ul class="navigation-list">
+        реки Карповки, 5, литера П.</p></div>
+      <div><ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link contacts2" href="#">Доставка</a>
         </li>
@@ -221,25 +226,26 @@
           <a class="navigation-link contacts2" href="#">Контакты</a>
         </li>
       </ul>
-      <a href="tel:+78128121212" class="about-us3">+Тел.:+7 (812) 812-12-12</a>
-            <ul class="footer-social-list">
-              <li class="footer-social-item">
-                <a class="button" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                </a>
-              </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
-                  <span class="visually-hidden">Instagram</span>
-                </a>
-              </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
-                  <span class="visually-hidden">Twitter</span>
-                </a>
-              </li>
-            </ul>
-            <p><img src="images/htmlacademy.svg" width="115" height="33" alt="htmlacademy"></p>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Instagram</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+      <div class="footer-phone-number"><a href="tel:+78128121212" class="about-us3">+Тел.:+7 (812) 812-12-12</a>
+            <p><img src="images/htmlacademy.svg" width="115" height="33" alt="htmlacademy"></p></div>
     </footer>
       </body>
     </html>

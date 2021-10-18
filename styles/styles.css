@@ -284,9 +284,13 @@ text-align: right;
 color: #444444;
 }
 
-.catalog-products {
+.filters {
     font-family: raleway, Arial, sans-serif;
     background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 69px;
 }
 
 .price-sorting {
@@ -333,3 +337,7 @@ margin-right: 115px;}
 .footer-phone-number {width: 250px;
     margin-top: auto;
 margin-left: auto;}
+
+.catalog-products {display: flex;}
+
+.catalog-right-column {width: 760px;}
